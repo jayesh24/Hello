@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/reg2"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_centerVertical="true"
+            android:alpha="1"
+            android:background="#145659"
+            android:text="Blood Donater"
+            android:textColor="#dc3835"
+            android:textStyle="bold|italic" />
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="158dp"
+            android:background="#145659"
+            android:text="Hospital"
+            android:textColor="#dc3835"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/edt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="64dp"
+            android:layout_marginStart="63dp"
+            android:text="Already Registered:"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edt2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="79dp"
+            android:background="#0a7c86"
+            android:text="LogIn"
+            android:textColor="#b13e3d"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
